@@ -1,0 +1,42 @@
+/* estilos para colores */
+.colores {
+    color: orangered;
+}
+
+.color-hexadecimal {
+    color: #8EDCE6;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200)
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.2);
+}
+
+.fondo {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-paisaje-primavera-hermosa-dibujada_23-2148857331.jpg?w=2000");
+    background-position: left bottom;
+}
+
+
+/* Tamaños */
+.anchura {
+    background-color: #8EDCE6;
+    width: 100px;
+}
+
+.altura {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(55, 10, 96);
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 200px;
+    
+}
