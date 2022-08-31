@@ -1,0 +1,22 @@
+.btn::before {
+    content: 'Pasar por aqui';
+    opacity: 1;
+}
+
+.btn::after {
+    content: 'Hecho';
+    opacity: 0;
+}
+
+.btn:hover {
+    color: white;
+    background-color: green;
+}
+
+.btn:hover::before {
+    opacity: 0;
+}
+
+.btn:hover::after {
+    opacity: 1;
+}
