@@ -6,34 +6,51 @@ body {
 .contenedor {
     display: flex;
     height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    
 }
 
 .barra {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 20px;
     background-color: rgb(255, 57, 57);
 }
 
 .elementos {
     padding: 15px;
-    font-size: 4rem;
+    font-size: 2.2rem;
     border: 4px solid black;
 }
 
 .s-principal {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-grow: 1;
     background-color: antiquewhite;
 }
 
-.frase {
-    font-size: 10rem;
-
+.s-principal span {
+    font-size: 3rem;
 }
 
+@media (max-width: 640px) {
+    .barra {
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 10vh;      
+        padding: 20px 0px   
+    }
 
-
-
+    .elementos {
+        padding: 15px;
+        font-size: 1.2rem;
+        border: 4px solid black;
+    }
+}
