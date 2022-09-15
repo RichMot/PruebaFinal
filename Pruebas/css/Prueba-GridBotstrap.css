@@ -1,0 +1,23 @@
+.row li {
+    margin: 0.25rem;
+}
+
+.col-xs {
+    background-color: yellow;
+}
+.col-sm {
+    background-color: blue;
+}
+.col-md {
+    background-color: red;
+}
+.col-lg {
+    background-color: green;
+}
+.col-xl {
+    background-color: orange;
+}
+.col-xxl {
+    background-color: purple;
+}
+
